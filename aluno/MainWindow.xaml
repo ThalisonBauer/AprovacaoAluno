@@ -1,0 +1,18 @@
+﻿<Window x:Class="aluno.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:aluno"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="143.568" Width="360.194">
+    <Grid>
+        <CheckBox x:Name="ck_colei" Content="Colei adoidado" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,80,0,0"/>
+        <CheckBox x:Name="ck_sabia" Content="Sabia Matéria" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,20,0,0"/>
+        <CheckBox x:Name="ck_fui" Content="Fui nas Aulas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,40,0,0"/>
+        <CheckBox x:Name="ck_estudei" Content="Estudei" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,60,0,0"/>
+        <Button x:Name="button" Content="Resultado" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="133,50,0,0" Click="button_Click"/>
+        <Label x:Name="label1" Content="Resultado" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="260,8,0,0"/>
+        <TextBlock x:Name="la_resultado" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="244,34,0,0" Width="90" Background="#FFFFFDB4" Height="41"/>
+    </Grid>
+</Window>

@@ -1,0 +1,3 @@
+C:\GitHub\AprovaçãoAluno\aluno\bin\Debug\aluno.exe.config
+C:\GitHub\AprovaçãoAluno\aluno\obj\Debug\aluno.exe
+C:\GitHub\AprovaçãoAluno\aluno\obj\Debug\aluno.pdb

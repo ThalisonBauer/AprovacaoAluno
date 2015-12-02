@@ -1,0 +1,14 @@
+C:\GitHub\aluno\aluno\aluno\bin\Debug\aluno.exe.config
+C:\GitHub\aluno\aluno\aluno\bin\Debug\aluno.exe
+C:\GitHub\aluno\aluno\aluno\bin\Debug\aluno.pdb
+C:\GitHub\aluno\aluno\aluno\obj\Debug\aluno.csprojResolveAssemblyReference.cache
+C:\GitHub\aluno\aluno\aluno\obj\Debug\MainWindow.g.cs
+C:\GitHub\aluno\aluno\aluno\obj\Debug\App.g.cs
+C:\GitHub\aluno\aluno\aluno\obj\Debug\aluno_MarkupCompile.cache
+C:\GitHub\aluno\aluno\aluno\obj\Debug\aluno_MarkupCompile.lref
+C:\GitHub\aluno\aluno\aluno\obj\Debug\MainWindow.baml
+C:\GitHub\aluno\aluno\aluno\obj\Debug\aluno.g.resources
+C:\GitHub\aluno\aluno\aluno\obj\Debug\aluno.Properties.Resources.resources
+C:\GitHub\aluno\aluno\aluno\obj\Debug\aluno.csproj.GenerateResource.Cache
+C:\GitHub\aluno\aluno\aluno\obj\Debug\aluno.exe
+C:\GitHub\aluno\aluno\aluno\obj\Debug\aluno.pdb
