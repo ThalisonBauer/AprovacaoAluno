@@ -34,20 +34,33 @@ namespace aluno
             bool colei = (ck_colei.IsChecked == true ? true : false);
 
 
-            bool resultado =  sabia|(fui && estudei) | (((!fui) && (!estudei)) && colei) ;
+            bool resultado = sabia || fui && estudei || !fui && !estudei && colei;
 
-            if(resultado == true)
+
+            if (resultado == true)
             {
-                la_resultado.Text = "Aprovado";
+                la_resultado.Foreground = new SolidColorBrush(Colors.Green);
+                la_resultado.Text = "Aprovado ";
             }
             else if (resultado == false)
             {
+                la_resultado.Foreground = new SolidColorBrush(Colors.Red);
                 la_resultado.Text = "Reprovado";
             }
             else
             {
                 la_resultado.Text = "Error 404, NOT FOUND";
             }
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            
+            la_resultado.Text="";
+            ck_sabia.IsChecked = false;
+            ck_fui.IsChecked = false;
+            ck_estudei.IsChecked = false;
+            ck_colei.IsChecked = false;
         }
     }
 }

@@ -5,14 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:aluno"
         mc:Ignorable="d"
-        Title="MainWindow" Height="143.568" Width="360.194">
-    <Grid>
-        <CheckBox x:Name="ck_colei" Content="Colei adoidado" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,80,0,0"/>
-        <CheckBox x:Name="ck_sabia" Content="Sabia Matéria" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,20,0,0"/>
-        <CheckBox x:Name="ck_fui" Content="Fui nas Aulas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,40,0,0"/>
-        <CheckBox x:Name="ck_estudei" Content="Estudei" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,60,0,0"/>
-        <Button x:Name="button" Content="Resultado" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="133,50,0,0" Click="button_Click"/>
-        <Label x:Name="label1" Content="Resultado" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="260,8,0,0"/>
-        <TextBlock x:Name="la_resultado" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="244,34,0,0" Width="90" Background="#FFFFFDB4" Height="41"/>
+        Title="MainWindow" Height="201.458" Width="243.394">
+    <Grid Margin="0,0,3.2,-0.2">
+
+        <StackPanel HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="142" Margin="-30,0,0,0">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="img/aluno-graduacao.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+
+        <CheckBox x:Name="ck_colei" Content="Colei adoidado" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="95,82,0,0"/>
+        <CheckBox x:Name="ck_sabia" Content="Sabia Matéria" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="95,22,0,0"/>
+        <CheckBox x:Name="ck_fui" Content="Fui nas Aulas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="95,42,0,0"/>
+        <CheckBox x:Name="ck_estudei" Content="Estudei" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="95,62,0,0"/>
+        <Button x:Name="button" Content="Resultado" HorizontalAlignment="Left" VerticalAlignment="Top" Width="61" Margin="151,102,0,0" Click="button_Click"/>
+        <TextBlock x:Name="la_resultado" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="95,127,0,0" Width="117" Background="#FF3A3A2E" Height="23"  FontWeight="Bold" FontSize="16" TextAlignment="Center"/>
+        <Button x:Name="button1" Content="Limpar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="95,102,0,0" Click="button1_Click"/>
+
     </Grid>
 </Window>
